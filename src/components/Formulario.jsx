@@ -160,6 +160,7 @@ function Formulario({ pacientes, setPacientes, paciente, setPaciente }) {
           </label>
           <textarea
             id="sintomas"
+            placeholder="Ingrese los sintomas de la mascota"
             className="border-2 w-full p-2 mt-1 placeholder-gray-600 rounded-md"
             value={sintomas}
             onChange={(e) => setSintomas(e.target.value)}
